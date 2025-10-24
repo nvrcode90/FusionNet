@@ -1,0 +1,134 @@
+# =========================
+# Node.js / Express Projects
+# =========================
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build output
+dist/
+build/
+out/
+.tmp/
+.cache/
+.next/
+.vite/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage / testing
+coverage/
+.nyc_output/
+lcov-report/
+__tests__/temp/
+
+# TypeScript build
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+.eslintcache
+.stylelintcache
+
+# Yarn / pnpm lockfiles (optional — keep only one)
+# Uncomment the one you use
+# yarn.lock
+# pnpm-lock.yaml
+# package-lock.json
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Temporary uploads / assets
+uploads/
+temp/
+tmp/
+*.bak
+*.orig
+
+# IDE-specific
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Vite / Next.js output
+.vite/
+.next/
+out/
+.vercel/
+.netlify/
+
+# Firebase / Supabase configs
+.firebase/
+supabase/.branches/
+
+# Python backend (if using FastAPI)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.venv/
+
+# TensorFlow / ML models (optional)
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+
+# Ignore generated data files
+*.csv
+*.json
+*.db
+*.sqlite
+*.parquet
+*.ckpt
+
+# Ignore secrets
+secrets.json
+credentials.json
+api_keys.txt
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
